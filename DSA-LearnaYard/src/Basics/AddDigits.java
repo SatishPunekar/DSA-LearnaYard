@@ -25,6 +25,8 @@ public class AddDigits {
 			return num;
 		}
 		num=num%9;
+		if(num==0)
+			return 9;
 		return num;
 	}
 
